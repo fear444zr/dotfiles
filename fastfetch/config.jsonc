@@ -7,32 +7,31 @@
   "modules": [
     "title",
     "separator",
-    "os",
-    "host",
-    "kernel",
-    "uptime",
-    "packages",
-    "shell",
-    "display",
-    "de",
-    "wm",
-    "wmtheme",
-    "theme",
-    "icons",
-    "font",
-    "cursor",
-    "terminal",
-    "terminalfont",
+    {
+        "type": "os",
+        "key": "os",
+        "format": "I use Arch btw"
+    },
+    {
+	"type": "host",
+	"key": "hardware",
+	"format": "Framework 16"
+    },
+    {
+	"type": "uptime",
+	"key": "uptime"
+    },
+    {
+	"type" : "wm",
+	"key" : "wm",
+	"format" : "Hyprland (Wayland)"
+    },
+    {
+        "type" : "terminal",
+	"key" : "cli"
+    },
     "cpu",
     "gpu",
-    "memory",
-    "swap",
-    "disk",
-    "localip",
-    "battery",
-    "poweradapter",
-    "locale",
-    "break",
-    "colors"
+    "memory"
   ]
 }
